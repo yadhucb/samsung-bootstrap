@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home,
+footer {
+    background: rgb(224, 138, 228);
+    background: radial-gradient(circle, rgba(224, 138, 228, 1) 0%, rgba(114, 177, 217, 1) 100%);
+}
+
+a {
+    text-decoration: none;
+    color: #212529;
+}
+
+.bi-search {
+    font-size: 30px;
+}
+
+.carousel {
+    background: rgb(228, 138, 138);
+    background: radial-gradient(circle, rgba(228, 138, 138, 1) 0%, rgba(36, 36, 35, 1) 100%);
+}
+
+.button-group a {
+    width: 40%;
+}
+
+.custom-margin-tv {
+    margin-top: 15px;
+}
+
+.form {
+    width: 100%;
+    background: rgb(224, 138, 228);
+    background: radial-gradient(circle, rgba(224, 138, 228, 1) 0%, rgba(114, 177, 217, 1) 100%);
+}
+
+.form-icon {
+    background: #182848;
+}
+
+
+.btn-grad {
+    background-image: linear-gradient(to right, #4b6cb7 0%, #182848 51%, #4b6cb7 100%);
+    margin: 10px;
+    padding: 5px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.cart-btn-grad {
+    background-image: linear-gradient(to right, #1e3c72 0%, #2a5298 51%, #1e3c72 100%);
+    /* margin: 10px; */
+    padding: 5px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.cart-btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: rgb(228, 119, 119);
+    text-decoration: none;
+}
+
+
+.buy-btn-grad {
+    background-image: linear-gradient(to right, #ff0084 0%, #33001b 51%, #ff0084 100%);
+    /* margin: 10px; */
+    padding: 5px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.buy-btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: rgb(163, 236, 28);
+    text-decoration: none;
+}
+
+.bi {
+    color: #fff;
+}
+
+.bi:hover {
+    cursor: pointer;
+    color: #ff0084;
+
+}
+
+@media(min-width: 1024px) {
+
+    .nav-link,
+    .bi-search {
+        color: #fff;
+        transition: all .5s ease;
+    }
+
+    .nav-link:hover {
+        transform: scale(1.1);
+        color: #ff0084;
+    }
+
+    .card {
+        cursor: pointer;
+        transition: all .5s ease;
+        margin-top: 15px;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+
+    }
+
+    .tv-card {
+        min-height: 430px;
+    }
+}
+
+
+
+@media(max-width: 767px) {
+    * {
+        overflow-x: hidden;
+
+    }
+
+    .carousel-img {
+        width: 100%;
+    }
+
+    .product,
+    .foot_link {
+        width: 50%;
+    }
+}
